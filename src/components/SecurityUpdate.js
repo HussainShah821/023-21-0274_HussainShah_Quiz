@@ -9,7 +9,7 @@ const Statistics = () => {
                 ensure the best
                 usage for the institutes
             </h1>
-            <div className="col-md-8 m-3" >
+            <div className="col-lg-12 col-md-8 m-3 align-items-center" >
                 We ensure the best usage for vehicles tracking and reservation system security with advance encryption standards and capability of keeping your assets like car, points much more secure with the live tracking system
             </div>
             <Button className={"align-items-center justify-content-center m-4 p-4"} variant="secondary">Get Started</Button>{' '}
