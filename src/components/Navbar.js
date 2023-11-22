@@ -14,7 +14,7 @@ function  MyNavbar() {
                 </svg>
                 <Navbar.Toggle aria-controls="basic-navbar-nav text-dark" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-">
+                    <Nav className="mx-auto">
                         <Nav.Link className={"text-dark"} href="#home">About</Nav.Link>
                         <Nav.Link className={"text-dark"} href="#link">Contact us</Nav.Link>
                         <Nav.Link className={"text-dark"} href="#link">TimeTable</Nav.Link>
