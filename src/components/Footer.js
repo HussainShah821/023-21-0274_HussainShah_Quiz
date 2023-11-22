@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer>
-            <p>&copy; 2023 Your Company</p>
+            <p style={{backgroundColor: "#969696", padding: "3rem"}}>&copy; All copy rights are reserved by Sukkur IBA University</p>
         </footer>
     );
 }
