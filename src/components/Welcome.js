@@ -1,9 +1,10 @@
 import React from 'react';
-
-function Welcome() {
+import Image from '../components/Assets/Images/image 5.png';
+function About() {
     return (
         <div>
-            <h1>Welcome to our website!</h1>
+            <h1>About pinpoint</h1>
+            <img src="Image" alt=""/>
         </div>
     );
 }
