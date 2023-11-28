@@ -1,13 +1,14 @@
 import React from 'react';
-import Button from "react-bootstrap/Button";
+import Badge from 'react-bootstrap/Badge';
+import Stack from 'react-bootstrap/Stack';
 
 const Statistics = () => {
     return (
-        <div>
-            <Button variant="secondary">5000 users</Button>{' '}
-            <Button variant="secondary">10 Trusted Clients</Button>{' '}
-            <Button variant="secondary">10k+ Downloads</Button>{' '}
-        </div>
+        <div className="d-flex justify-content-center">
+        <Badge bg="secondary" className="p-3 m-5">5000 Users</Badge>
+        <Badge bg="secondary" className="p-3 m-5">10 Trusted Clients</Badge>
+        <Badge bg="secondary" className="p-3 m-5">10k+ Downloads</Badge>
+    </div>
     );
 }
 
