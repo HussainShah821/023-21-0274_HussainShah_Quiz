@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 const Statistics = () => {
     return (
-        <div className="col-lg-4 col-md-4 m-2">
+        <div className="col-lg-4 col-md-4 m-4">
             <h1>
                 Pinpoint Security,
                 ensure the best
